@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Drag and Drop Images</title>
+<meta charset="utf-8">
+
+<style>
+#divToDrop {
+	min-width: 800px;
+	min-height: 400px;
+	max-width:800px;
+	background-color:#FFF;
+	border:1px solid #000000;
+	margin:5px;
+}
+.thumbnail {
+    height: 125px;
+    border: 1px solid #000000;
+    margin: 2px 2px 0 0;
+  }
+</style>
+</head>
+
+<body>
+
+<div><h1>Drag and Drop Images, localstorage</h1></div>
+<p>Drag images from desktop into the rectangle and </p>
+
+<div id="divToDrop" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+</div>
+<button type="button" id="del"> Delete stored data</button>
+<script src="tehtava3.js"></script>
+</body>
+
+</html>
